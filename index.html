@@ -2,25 +2,56 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Vite App</title>
+    <title>Elementos de linea, elementos de bloque</title>
   </head>
   <body>
   
-    <h1>proyecto vite inicial</h1>
+    <h1>Elementos de línea, elementos de bloque</h1>
     <hr>
-    <!-- codigo del proyecto -->
 
+    <p>Los elementos se clasifican principalmente en 2 tipos, elementos de línea y elementos de bloque. Está clasificación afecta la forma en que se muestran en página</p>
+
+
+    <h2><a href="https://developer.mozilla.org/es/docs/orphaned/Web/HTML/Inline_elements">Elementos de línea</a></h2>
+
+    <ul>
+      <li>Solo ocupan el espacio necesario para su contenido</li>
+      <li>No fuerzan saltos de línea, lo que permite que otros elementos en línea se coloquen a su lado en la misma línea</li>
+      <li>Solo pueden contener otros elementos en línea o texto</li>
+    </ul>
+
+    <!-- <a>, <span>, <strong>, <em> -->
+
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Nosotros</a>
+    <a href="#">Contacto</a>
+
+    <hr>
+
+    <span>Este es un span 1</span>
+    <span>Este es un span 2</span>
+    <span>Este es un span 3</span>
+    <span>Este es un span 4</span>
+
+    <h2><a href="https://developer.mozilla.org/es/docs/Glossary/Block-level_content">Elementos de bloque</a></h2>
+
+    <ul>
+      <li>Ocupan todo el ancho disponible del contendor, extendiendose de izquierda a derecha en su elemento padre</li>
+      <li>Crean un salto de línea antes y después de si mismos, por lo que aparecen en una nueva línea</li>
+      <li>Puede contener otros elementos de bloque y elementos de línea</li>
+    </ul>
     
-    
+    <!-- <p>, <h1>, <h2>, <div>, <hr>, <ul>  -->
 
+      <h3>Soy un elemento de bloque heading 3</h3>
+      <h3>Otro h3</h3>
 
-
-
-
-
-
-
-
+      <p>Primer parrafo</p>
+      <p>Segundo parrafo</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus itaque odit similique dolorum nihil inventore repellat alias laudantium hic error impedit voluptas eveniet, mollitia nemo id. Maxime vero, vitae mollitia illum necessitatibus nisi, repellat aliquam ut dicta labore impedit, molestias ipsa porro animi alias? Alias quibusdam veniam mollitia obcaecati?</p>
+      <p>Tercero parrafo</p>
+     
     <script type="module" src="/main.js"></script>
   </body>
 </html>
