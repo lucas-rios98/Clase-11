@@ -1,42 +1,16 @@
-h1{
-    font-family: sans-serif;
-    font-size: 35px;
-    color:rgb(187,83,151);
-    text-align: center;
-    letter-spacing: 15px;
-     
-  }  
-  h2{
-    font-family:'Lucida Sans Regular';
-    font-size: 20px;
-    color: rgb(187,83,151);
-    letter-spacing: 5px;
-  }
-
-  p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    color: rgb(101,128,188);
-  }
-
-#centrado{
-  display: block;
-  align-items: center;
-  margin: 0 auto;
+body{
+  background-color: rgb(40,150,136);
+  text-align: center;
 }
-.dimension{
-    width: 20%;
+h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 44;
+  color:rgb(252,234,62);
+  text-align: center;
+}
+
+ img {
+  border: solid 10px white;
+  margin: 5px;
 }
     
-.a-la-derecha{
-    float: right;
-  }
-  a-la-izquierda{
-  float: left;
-  }
-  .largo-ancho{
-    width: 100%;
-  }
-  #margenes{
-    margin: 20px;
-  }
