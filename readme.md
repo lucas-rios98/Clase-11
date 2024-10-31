@@ -1,3 +1,3 @@
 Nombre: Lucas Rios
-Link Github Repo: 
-Link: Netlify:  
+Link Github Repo:  
+Link: Netlify:   

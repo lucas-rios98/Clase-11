@@ -1,16 +1,69 @@
 body{
-  background-color: rgb(40,150,136);
-  text-align: center;
+  background-color: rgb(39,50,56);
 }
-h1{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 44;
-  color:rgb(252,234,62);
+
+h1{ font-family: impact, charcoal, sans-serif;
+  font-size: 40px;
+  color:rgb(105,133,147);
+}
+
+#margenes{
+  margin-left: 50px;
+}
+#Contorno-Blanco-Productos {
+  border: 2px solid;
+  background-color:white ;
+  width: 100%;
   text-align: center;
 }
 
- img {
-  border: solid 10px white;
-  margin: 5px;
+h2  {font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size: 40px;
+  font-style: oblique;
 }
-    
+
+p {
+  font-family: Arial, Gadget, sans-serif;
+  font-size: 20px;
+  color:rgb(137,150,162) ;
+}
+
+.color-aspiradora{
+  color: rgb(230,203,191);
+}
+
+.borde-aspi{
+  border: 5px solid rgb(161,193,203);
+}
+
+.color-celulares{
+  color: rgb(161,193,203);
+}
+
+.borde-celu{
+  border: 5px solid rgb(161,193,203);
+}
+
+.color-consolas{
+  color:rgb(188,189,191);
+}
+
+.borde-consola{
+  border: 5px solid rgb(188,189,191);
+}
+
+.color-home{
+  color: rgb(141,148,156);
+}
+
+.borde-home{
+  border: 5px solid rgb(141,148,161);
+}
+
+.color-televisores{
+  color:rgb(178,178,170); 
+}
+
+.borde-tele{
+  border: 5px solid rgb(178,178,170);
+}
